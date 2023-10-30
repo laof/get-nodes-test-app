@@ -1,0 +1,68 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #eceff3;
+}
+
+header {
+  font-size: 18px;
+  background: #3f4a65;
+  color: white;
+  padding: 14px;
+}
+
+.nodes {
+  overflow: hidden;
+  font-size: 14px;
+  height: 320px;
+  color: #103165;
+  word-break: break-all;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  text-overflow: ellipsis;
+  display: flex;
+  border: 16px solid white;
+  margin-top: 16px;
+}
+
+.nodes.copy {
+  background: #c6d6ff;
+  border: 16px solid #c6d6ff;
+}
+
+.btn {
+  justify-content: flex-end;
+  flex-direction: row;
+  display: flex;
+}
+
+label {
+  padding: 8px;
+  background: #137aff;
+  border-radius: 3px;
+  color: white;
+  cursor: pointer;
+  margin: 14px;
+  width: 80px;
+  text-align: center;
+  user-select: none;
+}
+
+.detail {
+  display: flex;
+  justify-content: flex-end;
+  color: #a7a7a7;
+  text-align: right;
+  font-size: 12px;
+  padding: 12px 14px;
+  border-top: 1px solid white;
+}
+
+.time {
+  text-align: left;
+}
